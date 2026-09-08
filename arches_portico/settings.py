@@ -131,10 +131,11 @@ INSTALLED_APPS = (
     "django_celery_results",
     "compressor",
     # "silk",
+    "arches_her",
     "arches_portico",
 )
 
-ARCHES_APPLICATIONS = ()
+ARCHES_APPLICATIONS = ("arches_her",)
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
@@ -393,6 +394,10 @@ LANGUAGES = [
 
 # override this to permenantly display/hide the language switcher
 SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
+
+DATATYPE_LOCATIONS.append('arches_her.datatypes')
+FUNCTION_LOCATIONS.append('arches_her.functions')
+SEARCH_COMPONENT_LOCATIONS.append('arches_her.search.components')
 
 try:
     from .package_settings import *
