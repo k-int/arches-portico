@@ -15,7 +15,7 @@
 		</skos:Concept>
 	</skos:hasTopConcept>
 </skos:ConceptScheme>
-<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd ">
+<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd">
 	<skos:member>
 		<skos:Concept rdf:about="http://localhost:8000/44de798a-b917-446a-b71f-540906888c22"/>
 	</skos:member>
@@ -29,7 +29,7 @@
 		</skos:Concept>
 	</skos:hasTopConcept>
 </skos:ConceptScheme>
-<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd ">
+<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd">
 	<skos:member>
 		<skos:Concept rdf:about="http://localhost:8000/40c982ba-632c-4bad-8eda-70b225887c86"/>
 	</skos:member>
@@ -43,7 +43,7 @@
 		</skos:Concept>
 	</skos:hasTopConcept>
 </skos:ConceptScheme>
-<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd ">
+<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd">
 	<skos:member>
 		<skos:Concept rdf:about="http://localhost:8000/ec34c4f2-a898-4ae4-86a0-4fab83104230"/>
 	</skos:member>
@@ -57,7 +57,7 @@
 		</skos:Concept>
 	</skos:hasTopConcept>
 </skos:ConceptScheme>
-<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd ">
+<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd">
 	<skos:member>
 		<skos:Concept rdf:about="http://localhost:8000/0debc757-a6ff-4ac4-a142-aa7d0a00a20f"/>
 	</skos:member>
@@ -71,7 +71,7 @@
 		</skos:Concept>
 	</skos:hasTopConcept>
 </skos:ConceptScheme>
-<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd ">
+<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd">
 	<skos:member>
 		<skos:Concept rdf:about="http://localhost:8000/9e26355c-5712-4d53-b860-341c6cfda330"/>
 	</skos:member>

@@ -8,43 +8,43 @@
 
 <skos:ConceptScheme rdf:about="http://localhost:8000/0c05d10f-e296-3c75-94b0-8b12ca30adb0">
 	<skos:hasTopConcept>
-		<skos:Concept rdf:about="http://localhost:8000/61bbaaee-dbfc-4cbb-86a9-34abf0a63915 ">
+		<skos:Concept rdf:about="http://localhost:8000/61bbaaee-dbfc-4cbb-86a9-34abf0a63915">
 			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;23b26938-ced1-4301-9f89-2c3fec2eb99e&quot;, &quot;value&quot;: &quot;Externally Held Archive Reference&quot;}</skos:prefLabel>
 			<skos:inScheme rdf:resource="http://localhost:8000/0c05d10f-e296-3c75-94b0-8b12ca30adb0"/>
 		</skos:Concept>
 	</skos:hasTopConcept>
 </skos:ConceptScheme>
-<skos:Collection rdf:about="http://localhost:8000/dcd69b56-c44a-4e5d-8e71-92192b0fbb4a ">
+<skos:Collection rdf:about="http://localhost:8000/dcd69b56-c44a-4e5d-8e71-92192b0fbb4a">
 	<skos:member>
-		<skos:Concept rdf:about="http://localhost:8000/61bbaaee-dbfc-4cbb-86a9-34abf0a63915 "/>
+		<skos:Concept rdf:about="http://localhost:8000/61bbaaee-dbfc-4cbb-86a9-34abf0a63915"/>
 	</skos:member>
 </skos:Collection>
 
 <skos:ConceptScheme rdf:about="http://localhost:8000/0c05d10f-e296-3c75-94b0-8b12ca30adb0">
 	<skos:hasTopConcept>
-		<skos:Concept rdf:about="http://localhost:8000/9cf31cdd-96d9-41a6-9ba1-cda54d425d39 ">
+		<skos:Concept rdf:about="http://localhost:8000/9cf31cdd-96d9-41a6-9ba1-cda54d425d39">
 			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;9f51f457-829f-447d-a089-d981ae4af96b&quot;, &quot;value&quot;: &quot;Estate Agents Sales Particulars&quot;}</skos:prefLabel>
 			<skos:inScheme rdf:resource="http://localhost:8000/0c05d10f-e296-3c75-94b0-8b12ca30adb0"/>
 		</skos:Concept>
 	</skos:hasTopConcept>
 </skos:ConceptScheme>
-<skos:Collection rdf:about="http://localhost:8000/dcd69b56-c44a-4e5d-8e71-92192b0fbb4a ">
+<skos:Collection rdf:about="http://localhost:8000/dcd69b56-c44a-4e5d-8e71-92192b0fbb4a">
 	<skos:member>
-		<skos:Concept rdf:about="http://localhost:8000/9cf31cdd-96d9-41a6-9ba1-cda54d425d39 "/>
+		<skos:Concept rdf:about="http://localhost:8000/9cf31cdd-96d9-41a6-9ba1-cda54d425d39"/>
 	</skos:member>
 </skos:Collection>
 
 <skos:ConceptScheme rdf:about="http://localhost:8000/0c05d10f-e296-3c75-94b0-8b12ca30adb0">
 	<skos:hasTopConcept>
-		<skos:Concept rdf:about="http://localhost:8000/787fce1e-7ed5-41ce-9adc-2198f20fd4b2 ">
+		<skos:Concept rdf:about="http://localhost:8000/787fce1e-7ed5-41ce-9adc-2198f20fd4b2">
 			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;8d1e544f-7a53-40fb-9638-929756ed0c1d&quot;, &quot;value&quot;: &quot;Drawing&quot;}</skos:prefLabel>
 			<skos:inScheme rdf:resource="http://localhost:8000/0c05d10f-e296-3c75-94b0-8b12ca30adb0"/>
 		</skos:Concept>
 	</skos:hasTopConcept>
 </skos:ConceptScheme>
-<skos:Collection rdf:about="http://localhost:8000/dcd69b56-c44a-4e5d-8e71-92192b0fbb4a ">
+<skos:Collection rdf:about="http://localhost:8000/dcd69b56-c44a-4e5d-8e71-92192b0fbb4a">
 	<skos:member>
-		<skos:Concept rdf:about="http://localhost:8000/787fce1e-7ed5-41ce-9adc-2198f20fd4b2 "/>
+		<skos:Concept rdf:about="http://localhost:8000/787fce1e-7ed5-41ce-9adc-2198f20fd4b2"/>
 	</skos:member>
 </skos:Collection>
 
