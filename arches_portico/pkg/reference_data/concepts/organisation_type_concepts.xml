@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+<!-- Concepts that extend the AfHER Organization Type Thesaurus -->
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/5a6af1b6-9d9a-4477-b77a-0a0920ae5fea">
+	<skos:hasTopConcept>
+		<skos:Concept rdf:about="http://localhost:8000/0211dec4-8071-493c-8a00-e0bd94c32f49">
+			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;0b60e8c1-b77e-4e13-ac73-30b8f0ed5e2c&quot;, &quot;value&quot;: &quot;National Society&quot;}</skos:prefLabel>
+			<skos:inScheme rdf:resource="http://localhost:8000/5a6af1b6-9d9a-4477-b77a-0a0920ae5fea"/>
+		</skos:Concept>
+	</skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/64d63068-9b15-4d0c-8f2b-2419dd681894 ">
+	<skos:member>
+		<skos:Concept rdf:about="http://localhost:8000/0211dec4-8071-493c-8a00-e0bd94c32f49"/>
+	</skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/5a6af1b6-9d9a-4477-b77a-0a0920ae5fea">
+	<skos:hasTopConcept>
+		<skos:Concept rdf:about="http://localhost:8000/fd73163b-5cb1-4c4a-af4d-36a0f15143af ">
+			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;3a326735-c8a9-479e-947f-8332cd05db47&quot;, &quot;value&quot;: &quot;Regional Society&quot;}</skos:prefLabel>
+			<skos:inScheme rdf:resource="http://localhost:8000/5a6af1b6-9d9a-4477-b77a-0a0920ae5fea"/>
+		</skos:Concept>
+	</skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/64d63068-9b15-4d0c-8f2b-2419dd681894 ">
+	<skos:member>
+		<skos:Concept rdf:about="http://localhost:8000/fd73163b-5cb1-4c4a-af4d-36a0f15143af "/>
+	</skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/5a6af1b6-9d9a-4477-b77a-0a0920ae5fea">
+	<skos:hasTopConcept>
+		<skos:Concept rdf:about="http://localhost:8000/471fc5b8-b672-4068-a8aa-f5bc53068221  ">
+			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;cec474b0-381b-4810-8fdc-14f309ee4ff7&quot;, &quot;value&quot;: &quot;Metal Detecting Club&quot;}</skos:prefLabel>
+			<skos:inScheme rdf:resource="http://localhost:8000/5a6af1b6-9d9a-4477-b77a-0a0920ae5fea"/>
+		</skos:Concept>
+	</skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/64d63068-9b15-4d0c-8f2b-2419dd681894 ">
+	<skos:member>
+		<skos:Concept rdf:about="http://localhost:8000/471fc5b8-b672-4068-a8aa-f5bc53068221  "/>
+	</skos:member>
+</skos:Collection>
+
+</rdf:RDF>

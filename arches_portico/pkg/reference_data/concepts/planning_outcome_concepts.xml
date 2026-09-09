@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+<!-- Concepts that extend the AfHER Planning Outcome lists -->
+ 
+<skos:ConceptScheme rdf:about="http://localhost:8000/68b60e70-35e5-489e-b6cc-236d4accbc9a">
+    <skos:hasTopConcept>
+        <skos:Concept rdf:about="http://localhost:8000/fd82a46e-9fec-4108-a6d0-51e72c8f0df4">
+            <skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;6d6af910-8737-4a7d-9717-c732ca5edfe0&quot;, &quot;value&quot;: &quot;Approved With Condition Imposed&quot;}</skos:prefLabel>
+            <skos:inScheme rdf:resource="http://localhost:8000/68b60e70-35e5-489e-b6cc-236d4accbc9a"/>
+        </skos:Concept>
+    </skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/07dbb73c-a977-4861-af4f-47c077be0f38">
+    <skos:member>
+        <skos:Concept rdf:about="http://localhost:8000/fd82a46e-9fec-4108-a6d0-51e72c8f0df4"/>
+    </skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/68b60e70-35e5-489e-b6cc-236d4accbc9a">
+    <skos:hasTopConcept>
+        <skos:Concept rdf:about="http://localhost:8000/6a7b0efb-89a0-48f4-a39c-508f7c08e8f8">
+            <skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;fb10a309-89de-4bbe-8562-a31d45714249&quot;, &quot;value&quot;: &quot;Approved With No Arch Investigation&quot;}</skos:prefLabel>
+            <skos:inScheme rdf:resource="http://localhost:8000/68b60e70-35e5-489e-b6cc-236d4accbc9a"/>
+        </skos:Concept>
+    </skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/07dbb73c-a977-4861-af4f-47c077be0f38">
+    <skos:member>
+        <skos:Concept rdf:about="http://localhost:8000/6a7b0efb-89a0-48f4-a39c-508f7c08e8f8"/>
+    </skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/68b60e70-35e5-489e-b6cc-236d4accbc9a">
+    <skos:hasTopConcept>
+        <skos:Concept rdf:about="http://localhost:8000/d2e6a45f-0d5b-4e96-97b3-3a247b1b62fb">
+            <skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;616fccc3-0a1e-4694-b048-5c2f313ad4f1&quot;, &quot;value&quot;: &quot;Withdrawn&quot;}</skos:prefLabel>
+            <skos:inScheme rdf:resource="http://localhost:8000/68b60e70-35e5-489e-b6cc-236d4accbc9a"/>
+        </skos:Concept>
+    </skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/07dbb73c-a977-4861-af4f-47c077be0f38">
+    <skos:member>
+        <skos:Concept rdf:about="http://localhost:8000/d2e6a45f-0d5b-4e96-97b3-3a247b1b62fb"/>
+    </skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/68b60e70-35e5-489e-b6cc-236d4accbc9a">
+    <skos:hasTopConcept>
+        <skos:Concept rdf:about="http://localhost:8000/3766ca2f-e919-4d41-9e12-6e71a292be36">
+            <skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;1b125d88-6e8f-412d-b4c0-f53d157e3bc2&quot;, &quot;value&quot;: &quot;Retrospective&quot;}</skos:prefLabel>
+            <skos:inScheme rdf:resource="http://localhost:8000/68b60e70-35e5-489e-b6cc-236d4accbc9a"/>
+        </skos:Concept>
+    </skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/07dbb73c-a977-4861-af4f-47c077be0f38">
+    <skos:member>
+        <skos:Concept rdf:about="http://localhost:8000/3766ca2f-e919-4d41-9e12-6e71a292be36"/>
+    </skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/68b60e70-35e5-489e-b6cc-236d4accbc9a">
+    <skos:hasTopConcept>
+        <skos:Concept rdf:about="http://localhost:8000/2e83c61b-4ec1-45dd-be36-b949790e631d">
+            <skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;bdb8189b-fd84-4ba5-bd78-837b8a8198e9&quot;, &quot;value&quot;: &quot;Invalid Application&quot;}</skos:prefLabel>
+            <skos:inScheme rdf:resource="http://localhost:8000/68b60e70-35e5-489e-b6cc-236d4accbc9a"/>
+        </skos:Concept>
+    </skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/07dbb73c-a977-4861-af4f-47c077be0f38">
+    <skos:member>
+        <skos:Concept rdf:about="http://localhost:8000/2e83c61b-4ec1-45dd-be36-b949790e631d"/>
+    </skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/68b60e70-35e5-489e-b6cc-236d4accbc9a">
+    <skos:hasTopConcept>
+        <skos:Concept rdf:about="http://localhost:8000/3f98e3e3-0603-4141-8c5c-6f0e1ed9711e">
+            <skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;05ebab6e-142f-4c79-8435-27528dbe3b14&quot;, &quot;value&quot;: &quot;Accepted By Consulting Authority&quot;}</skos:prefLabel>
+            <skos:inScheme rdf:resource="http://localhost:8000/68b60e70-35e5-489e-b6cc-236d4accbc9a"/>
+        </skos:Concept>
+    </skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/07dbb73c-a977-4861-af4f-47c077be0f38">
+    <skos:member>
+        <skos:Concept rdf:about="http://localhost:8000/3f98e3e3-0603-4141-8c5c-6f0e1ed9711e"/>
+    </skos:member>
+</skos:Collection>
+</rdf:RDF>

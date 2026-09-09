@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+<!-- Concepts that extend the AfHER Protection Types and Area Status Types lists -->
+
+<!-- Area Status Type -->
+<skos:ConceptScheme rdf:about="http://localhost:8000/5a38cca8-14af-40b2-bf3a-86fe00a4b8d8">
+	<skos:hasTopConcept>
+		<skos:Concept rdf:about="http://localhost:8000/44de798a-b917-446a-b71f-540906888c22">
+			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;0c9d9ce1-ad06-45f6-8d97-3571d53a8fc1&quot;, &quot;value&quot;: &quot;Archaeological Notification Area - Tier I&quot;}</skos:prefLabel>
+			<skos:inScheme rdf:resource="http://localhost:8000/5a38cca8-14af-40b2-bf3a-86fe00a4b8d8"/>
+		</skos:Concept>
+	</skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd ">
+	<skos:member>
+		<skos:Concept rdf:about="http://localhost:8000/44de798a-b917-446a-b71f-540906888c22"/>
+	</skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/5a38cca8-14af-40b2-bf3a-86fe00a4b8d8">
+	<skos:hasTopConcept>
+		<skos:Concept rdf:about="http://localhost:8000/40c982ba-632c-4bad-8eda-70b225887c86">
+			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;afe9a5ad-e3b9-4d90-af17-71d513cbdb79&quot;, &quot;value&quot;: &quot;Archaeological Notification Area - Tier II&quot;}</skos:prefLabel>
+			<skos:inScheme rdf:resource="http://localhost:8000/5a38cca8-14af-40b2-bf3a-86fe00a4b8d8"/>
+		</skos:Concept>
+	</skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd ">
+	<skos:member>
+		<skos:Concept rdf:about="http://localhost:8000/40c982ba-632c-4bad-8eda-70b225887c86"/>
+	</skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/5a38cca8-14af-40b2-bf3a-86fe00a4b8d8">
+	<skos:hasTopConcept>
+		<skos:Concept rdf:about="http://localhost:8000/ec34c4f2-a898-4ae4-86a0-4fab83104230">
+			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;94172c23-5b1e-47da-9072-4be27b7cd69f&quot;, &quot;value&quot;: &quot;Archaeological Notification Area - Tier III&quot;}</skos:prefLabel>
+			<skos:inScheme rdf:resource="http://localhost:8000/5a38cca8-14af-40b2-bf3a-86fe00a4b8d8"/>
+		</skos:Concept>
+	</skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd ">
+	<skos:member>
+		<skos:Concept rdf:about="http://localhost:8000/ec34c4f2-a898-4ae4-86a0-4fab83104230"/>
+	</skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/5a38cca8-14af-40b2-bf3a-86fe00a4b8d8">
+	<skos:hasTopConcept>
+		<skos:Concept rdf:about="http://localhost:8000/0debc757-a6ff-4ac4-a142-aa7d0a00a20f">
+			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;9ff8db70-a785-4a70-ae7f-8477c1b52dda&quot;, &quot;value&quot;: &quot;Archaeological Notification Area&quot;}</skos:prefLabel>
+			<skos:inScheme rdf:resource="http://localhost:8000/5a38cca8-14af-40b2-bf3a-86fe00a4b8d8"/>
+		</skos:Concept>
+	</skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd ">
+	<skos:member>
+		<skos:Concept rdf:about="http://localhost:8000/0debc757-a6ff-4ac4-a142-aa7d0a00a20f"/>
+	</skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/5a38cca8-14af-40b2-bf3a-86fe00a4b8d8">
+	<skos:hasTopConcept>
+		<skos:Concept rdf:about="http://localhost:8000/9e26355c-5712-4d53-b860-341c6cfda330">
+			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;02a8de3b-2b4a-425d-ae74-c95fb1810ace&quot;, &quot;value&quot;: &quot;Potential Archaeological Notification Area&quot;}</skos:prefLabel>
+			<skos:inScheme rdf:resource="http://localhost:8000/5a38cca8-14af-40b2-bf3a-86fe00a4b8d8"/>
+		</skos:Concept>
+	</skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/d1532f63-7ad9-4fc3-926c-84a89f97aadd ">
+	<skos:member>
+		<skos:Concept rdf:about="http://localhost:8000/9e26355c-5712-4d53-b860-341c6cfda330"/>
+	</skos:member>
+</skos:Collection>
+
+<!-- Protection Type -->
+<skos:ConceptScheme rdf:about="http://localhost:8000/c0254d4d-3948-4614-af80-4ee065deadbe">
+	<skos:hasTopConcept>
+		<skos:Concept rdf:about="http://localhost:8000/762b996f-607c-4355-9423-12181b2d0123">
+			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;3cefb935-71c2-4cc4-a7b4-6d668446a83f&quot;, &quot;value&quot;: &quot;Archaeological Notification Area - Tier II&quot;}</skos:prefLabel>
+			<skos:inScheme rdf:resource="http://localhost:8000/c0254d4d-3948-4614-af80-4ee065deadbe"/>
+		</skos:Concept>
+	</skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/08224567-338c-406b-91ae-6ce4b4ee3608">
+	<skos:member>
+		<skos:Concept rdf:about="http://localhost:8000/762b996f-607c-4355-9423-12181b2d0123"/>
+	</skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/c0254d4d-3948-4614-af80-4ee065deadbe">
+	<skos:hasTopConcept>
+		<skos:Concept rdf:about="http://localhost:8000/3ef096f4-d0ba-45c1-95a4-610a552efe6e">
+			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;4570cdc3-d0ae-4fc2-ba6e-335842f13c0d&quot;, &quot;value&quot;: &quot;Archaeological Notification Area - Tier I&quot;}</skos:prefLabel>
+			<skos:inScheme rdf:resource="http://localhost:8000/c0254d4d-3948-4614-af80-4ee065deadbe"/>
+		</skos:Concept>
+	</skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/08224567-338c-406b-91ae-6ce4b4ee3608">
+	<skos:member>
+		<skos:Concept rdf:about="http://localhost:8000/3ef096f4-d0ba-45c1-95a4-610a552efe6e"/>
+	</skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/c0254d4d-3948-4614-af80-4ee065deadbe">
+	<skos:hasTopConcept>
+		<skos:Concept rdf:about="http://localhost:8000/4ab6981a-b9d7-4d62-bf61-9b4229eff24a">
+			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;bc75c1de-2c8b-45bd-8f6c-5b67255fe7f6&quot;, &quot;value&quot;: &quot;Archaeological Notification Area&quot;}</skos:prefLabel>
+			<skos:inScheme rdf:resource="http://localhost:8000/c0254d4d-3948-4614-af80-4ee065deadbe"/>
+		</skos:Concept>
+	</skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/08224567-338c-406b-91ae-6ce4b4ee3608">
+	<skos:member>
+		<skos:Concept rdf:about="http://localhost:8000/4ab6981a-b9d7-4d62-bf61-9b4229eff24a"/>
+	</skos:member>
+</skos:Collection>
+
+<skos:ConceptScheme rdf:about="http://localhost:8000/c0254d4d-3948-4614-af80-4ee065deadbe">
+	<skos:hasTopConcept>
+		<skos:Concept rdf:about="http://localhost:8000/ca0da945-8056-4c4a-b3c4-58d28a6dc074">
+			<skos:prefLabel xml:lang="en">{&quot;id&quot;: &quot;38426377-02db-4e45-a4d7-a8b349329fee&quot;, &quot;value&quot;: &quot;Archaeological Notification Area - Tier III&quot;}</skos:prefLabel>
+			<skos:inScheme rdf:resource="http://localhost:8000/c0254d4d-3948-4614-af80-4ee065deadbe"/>
+		</skos:Concept>
+	</skos:hasTopConcept>
+</skos:ConceptScheme>
+<skos:Collection rdf:about="http://localhost:8000/08224567-338c-406b-91ae-6ce4b4ee3608">
+	<skos:member>
+		<skos:Concept rdf:about="http://localhost:8000/ca0da945-8056-4c4a-b3c4-58d28a6dc074"/>
+	</skos:member>
+</skos:Collection>
+
+
+</rdf:RDF>
