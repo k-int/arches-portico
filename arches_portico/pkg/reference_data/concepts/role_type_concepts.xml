@@ -14,7 +14,7 @@
 		</skos:Concept>
 	</skos:hasTopConcept>
 </skos:ConceptScheme>
-<skos:Collection rdf:about="http://localhost:8000/0cdf5418-d21b-4d01-9760-8edad86ac4f0 ">
+<skos:Collection rdf:about="http://localhost:8000/0cdf5418-d21b-4d01-9760-8edad86ac4f0">
 	<skos:member>
 		<skos:Concept rdf:about="http://localhost:8000/0290f0a3-e983-4bee-bbc5-bfc649a8198d"/>
 	</skos:member>
