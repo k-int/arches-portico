@@ -61,7 +61,7 @@ UPLOADED_FILES_DIR = "uploadedfiles"
 SECRET_KEY = '!y2n!fo#n^hn*w2h)bum-afk6je*%l+$b)_gqx3-x5men%q)7y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ROOT_URLCONF = 'arches_portico.urls'
 
