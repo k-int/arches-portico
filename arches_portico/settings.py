@@ -131,11 +131,13 @@ INSTALLED_APPS = (
     "django_celery_results",
     "compressor",
     # "silk",
+    "storages",    
     "arches_her",
+    "arches_keep_app",
     "arches_portico",
 )
 
-ARCHES_APPLICATIONS = ("arches_her",)
+ARCHES_APPLICATIONS = ("arches_her", "arches_keep_app",)
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
