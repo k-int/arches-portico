@@ -45,4 +45,4 @@ dev = [
 ]
 
 [tool.setuptools]
-packages = ["arches-portico"]
+packages = ["arches_portico"]
