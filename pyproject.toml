@@ -28,7 +28,7 @@ requires-python = ">=3.10"
 dependencies = [
     "arches>=7.6.25,<7.7.0",
     "arches_her>=1.1.0,<1.2.0",
-    "arches_keep_app @ git+https://github.com/k-int/arches-portico-the-keep@master",
+    "arches-portico-the-keep @ git+https://github.com/k-int/arches-portico-the-keep@dev/1.1.x",
     "django-storages",
     "redis",
 ]
