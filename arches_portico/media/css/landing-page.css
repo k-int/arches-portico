@@ -1,5 +1,5 @@
 .v5-splash-navbar{
-    height: 150px;
+    height: 115px;
     background-color: rgba(0, 60, 105, 1);
     transition: background-color 0.3s ease;
     border-bottom: 5px solid #bed600;
@@ -30,7 +30,7 @@
 }
 
 .navbar-brand-v5-icon{
-    width: 150px;
+    width: 300px;
     height: auto;
 }
 
