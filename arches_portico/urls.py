@@ -3,9 +3,16 @@ from django.conf.urls.static import static
 from django.conf.urls.i18n import i18n_patterns
 from django.urls import include, path
 
+from arches_portico.views.mapping import PorticoBasemaps
+
 urlpatterns = [
     path("", include("arches_her.urls")),
     path("", include("arches_keep_app.urls")),
+    path(
+        "escc-os-basemap/<str:layer>/<int:z>/<int:x>/<int:y>.png",
+        PorticoBasemaps.as_view(),
+        name="escc-os-basemap",
+    )
 ]
 
 # Ensure Arches core urls are superseded by project-level urls
