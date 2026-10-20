@@ -74,6 +74,13 @@ h1{
     transform: translateX(-50%);
 }
 
+@media screen and (max-height: 819px) {
+    .slide-caption,
+    .slide-img-attribution {
+        display: block;
+    }
+}
+
 .slide-caption h2 {
     font-size: 2rem;
 }
