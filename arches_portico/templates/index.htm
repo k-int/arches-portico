@@ -159,7 +159,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                             <h2>{% blocktrans %}East Sussex<br>Historic Environment Record{% endblocktrans %}</h2>                            <p>{% trans "A record of archaeological sites and historical" %}</p>
                             <p>{% trans "finds in the areas of East Sussex and Brighton and Hove" %}</p>
                         </div>
-                        <div id="slide2-attribution" class="slide-img-attribution">{% trans "Image: Lewis Castle &copy; ESCC" %}</div>
+                        <div id="slide2-attribution" class="slide-img-attribution">{% trans "Image: Lewes Castle &copy; ESCC" %}</div>
                     </div>
                     <div class="slide-img-container">
                         <img src="{% webpack_static 'landing/img/AMS 6993-2 (2) L.jpg' %}" alt="" aria-describedby="slide3-attribution">
@@ -270,7 +270,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                             <div class="app-info-block-intro text-center">
                                 <h3 class="app-info-block-title">{% trans "About the East Sussex Historic Environment Record (ESHER)" %}</h3>
                                 <p class="app-info-block-text">
-                                    {% trans "ESHER is a record of archaeological sites and historical finds. It covers the areas of East Sussex and Brighton and Hove." %}
+                                    {% trans "ESHER is a record of archaeological sites and historical finds. It covers the areas of East Sussex and Brighton and Hove, including over 25,000 sites from the Prehistoric to the 21st century and over 5000 archaeological reports." %}
                                 </p>
                                 <p class="app-info-block-text">
                                     {% trans "It is a resource for researchers, local historians, archaeologists, and members of the public, and helps the County Council to manage the local historic environment, especially to make informed decisions on planning applications." %}
@@ -279,7 +279,10 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                                     {% trans "It is part of a national network of Historic Environment Records (HERs), supported by Historic England." %}
                                 </p>
                                 <p class="app-info-block-text">
-                                    <strong>{% trans "You can only use the data from ESHER for personal research. This information is not for commercial purposes or publication without prior permission." %}</strong>
+                                    <strong>{% trans "Data from ESHER can be used for free for personal research. The data from the publicly accessible version of ESHER is not to be used for commercial/planning purposes." %}</strong>
+                                </p>
+                                <p class="app-info-block-text">
+                                    <strong>{% trans "If you require information for commercial/planning purposes, please visit our website for more information:"%} <a href="www.eastsussex.gov.uk/environment/archaeology/her">www.eastsussex.gov.uk/environment/archaeology/her</a></strong>
                                 </p>
                             </div>
                         </div>
@@ -297,44 +300,15 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                     <div class="sub-section">
                         <div class="col-lg-7">
                             <div class="app-info-block-intro text-center">
-                                <h3 class="app-info-block-title">{% trans "What information does the ESHER contain?" %}</h3>
-                                <p class="app-info-block-text">
-                                    {% trans "ESHER contains information on many archaeological periods. These range from Prehistoric finds through to sites from the 20th century." %}
-                                </p>
-                                <p class="app-info-block-text">
-                                    {% trans "The Record includes large sites such as Lewes Castle and Battle Abbey, as well as lesser-known sites. Some of these sites are only identified by aerial photographs or Lidar analysis." %}
-                                </p>
-                                <p class="app-info-block-text">
-                                    {% trans "There are over 21,000 archaeological and historical sites recorded on the ESHER. We also hold roughly 2,000 archaeological reports, aerial photographs and a library of archaeological and historical sources." %}
-                                </p>
-                                <p class="app-info-block-text">
-                                    {% trans "The amount of information available on a site or find can vary. Some sites are only known from historical sources but modern excavations are more likely to have precise information." %}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-            <!-- End Info Block 2 -->
-
-            <!-- Info Block 3 -->
-            <section id="info-block-2" class="app-info-block relative">
-                <div>
-
-                    <!-- Heading Info -->
-                    <div class="sub-section">
-                        <div class="col-lg-7">
-                            <div class="app-info-block-intro text-center">
                                 <h3 class="app-info-block-title">{% trans "Enquiries" %}</h3>
                                 <p class="app-info-block-text">
-                                    {% trans "If you would like to request a full search of the HER database, please  follow the advice on the " %}
+                                    {% trans "If you would like to request a comprehensive search of the HER database, please  follow the advice on the " %}
                                     <a href="https://www.eastsussex.gov.uk/environment/archaeology/her" aria-label="{% trans 'Go to the ESCC HER website' %}">
                                         {% trans "East Sussex County Council website." %}
                                     </a>
                                 </p>
                                 <p class="app-info-block-text">
-                                    {% trans "For more information about how to access more detailed records, please contact the HER team based at The Keep." %} 
+                                    {% trans "For information about how to access more detailed records, please contact the HER team based at The Keep." %} 
                                 </p>
 
                                 <ul class="contact-info-list">
@@ -351,10 +325,10 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 
                 </div>
             </section>
-            <!-- End Info Block 3 -->
+            <!-- End Info Block 2 -->
             
-            <!-- Info Block 4 -->
-            <section id="info-block-2" class="app-info-block relative">
+            <!-- Info Block 3 -->
+            <section id="info-block-3" class="app-info-block relative">
                 <div>
 
                     <!-- Heading Info -->
@@ -376,7 +350,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                     </div>
                 </div>
             </section>
-            <!-- End Info Block 4 -->
+            <!-- End Info Block 3 -->
             
         </article>
     </main>
