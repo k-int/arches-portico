@@ -120,6 +120,19 @@ h1{
     padding: 70px 70px;
 }
 
+.section-divider{
+    height: 75px;
+    background-color: rgba(0, 60, 105, 1);
+}
+
+.app-info-block:nth-child(even){
+    background: none;
+}
+
+section.app-info-block:nth-of-type(even){
+    background: #f8f8f8;
+}
+
 .app-info-block-text{
     margin-top: 30px;
     font-size: 1rem;
