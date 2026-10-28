@@ -4,9 +4,8 @@ body {
 
 .v5-splash-navbar{
     height: 115px;
-    background-color: rgba(0, 60, 105, 1);
+    background-color: rgba(0, 60, 105, 0.7);
     transition: background-color 0.3s ease;
-    border-bottom: 5px solid #bed600;
 }
 
 .v5-splash-navbar.is-scrolled {

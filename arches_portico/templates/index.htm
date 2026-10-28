@@ -518,13 +518,13 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                 var navigationItems = $('#cd-vertical-nav a');
                     $navbar = $('.v5-splash-navbar');
 
-                // function updateNavbarOpacity() {
-                //     if ($(window).scrollTop() > 300) {
-                //         $navbar.addClass('is-scrolled');
-                //     } else {
-                //         $navbar.removeClass('is-scrolled');
-                //     }
-                // }
+                function updateNavbarOpacity() {
+                    if ($(window).scrollTop() > 500) {
+                        $navbar.addClass('is-scrolled');
+                    } else {
+                        $navbar.removeClass('is-scrolled');
+                    }
+                }
 
                 function smoothScroll(target) {
                     var headerHeight = 130;
@@ -534,13 +534,13 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                     );
                 }
 
-                // updateNavbarOpacity();
+                updateNavbarOpacity();
 
                 // Event listeners
                 
-                // $(window).on('scroll', function () {
-                //     updateNavbarOpacity();
-                // });
+                $(window).on('scroll', function () {
+                    updateNavbarOpacity();
+                });
 
                 $('.down-button').on('click', function (event) {
                     event.preventDefault();
