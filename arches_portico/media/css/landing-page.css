@@ -132,6 +132,32 @@ section.app-info-block:nth-of-type(even){
     background: #f8f8f8;
 }
 
+.search-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.search-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.search-icons img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.search-icon-title{
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
 .app-info-block-text{
     margin-top: 30px;
     font-size: 1rem;
