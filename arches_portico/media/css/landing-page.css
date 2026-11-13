@@ -1,8 +1,11 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
 .v5-splash-navbar{
     height: 115px;
-    background-color: rgba(0, 60, 105, 1);
+    background-color: rgba(0, 60, 105, 0.7);
     transition: background-color 0.3s ease;
-    border-bottom: 5px solid #bed600;
 }
 
 .v5-splash-navbar.is-scrolled {
@@ -58,6 +61,7 @@ h1{
 
 .contact-info-list {
     margin-top: 30px;
+    padding: 0;
 }
 
 .contact-info-list li{
@@ -72,6 +76,13 @@ h1{
     bottom: 40%;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media screen and (max-height: 819px) {
+    .slide-caption,
+    .slide-img-attribution {
+        display: block;
+    }
 }
 
 .slide-caption h2 {
@@ -106,6 +117,45 @@ h1{
 .app-info-block{
     min-height: 200px;
     padding: 70px 70px;
+}
+
+.section-divider{
+    height: 50px;
+    background-color: rgba(0, 60, 105, 1);
+}
+
+.app-info-block:nth-child(even){
+    background: none;
+}
+
+section.app-info-block:nth-of-type(even){
+    background: #f8f8f8;
+}
+
+.search-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.search-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.search-icons img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.search-icon-title{
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .app-info-block-text{
