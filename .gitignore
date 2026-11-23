@@ -18,3 +18,4 @@ arches_portico/settings_local.py
 webpack/webpack-stats.json
 .vscode/
 CACHE
+nohup.out
